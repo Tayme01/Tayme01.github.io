@@ -1,0 +1,84 @@
+<html>
+<head>
+	<title>Your Account</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/submit.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class ="container">
+			<a class="navbar-brand" href="index.html"><i class="fa fa-cutlery" aria-hidden="true"></i> More Recipes</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="catalogue.html">Catalogue</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="nav-item">
+						<form class="form-inline my-2 my-lg-0">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						</form>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Your Account
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="profile.html">Profile Page</a>
+							<a class="dropdown-item" href="index.html">Sign Out</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="jumbotron">
+		<h1 class="display-6">Hi username!</h1>
+	</div>
+	<div class="container">
+		<div class="row">
+			<form action="profile.html">
+				<div class="form-group">
+					<label class="form-control-label" for="formGroupInput"><strong>Recipe Title</strong></label>
+					<input type="text" class="form-control" id="formGroupInput">
+				</div>
+				<div class="form-group">
+					<label for="formControlTextarea1"><strong>Description</strong></label>
+					<textarea class="form-control" id="formControlTextarea" rows="3"></textarea>
+				</div>
+				<div class="form-group">
+					<label for="formControlTextarea1"><strong>Ingredients</strong></label>
+					<textarea class="form-control" id="formControlTextarea" placeholder= "Put each ingredient on its own line." rows="3"></textarea>
+				</div>
+				<div class="form-group">
+					<label for="formControlTextarea11"><strong>Directions</strong></label>
+					<textarea class="form-control" id="formControlTextarea1" placeholder= "Put each step on its own line." rows="3"></textarea>
+				</div>
+				<div class="form-group">
+					<label for="formControlFile"><strong>Add Pictures</strong></label>
+					<input type="file" class="form-control-file" id="formControlFile">
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input">
+						I agree to the <a href="http://www.google.com">terms and conditions.</a>
+					</label>
+				</div>
+				<button type="submit" class="btn btn-primary">Save</button>
+				<button type="submit" class="btn btn-secondary">Cancel</button>
+			</form>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src ="js/script.js"></script>
+</body>
+</html>

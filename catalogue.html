@@ -1,0 +1,531 @@
+<html>
+<head>
+	<title>Recipes</title>
+	<!-- Fonts and other StyleSheets -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/recipes_styles.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class ="container">
+			<a class="navbar-brand" href="index.html"><i class="fa fa-cutlery" aria-hidden="true"></i> More Recipes</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="catalogue.html">Catalogue</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="nav-item">
+						<form class="form-inline my-2 my-lg-0">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						</form>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "signupID" href="#">Sign Up <i class="fa fa-user-plus" aria-hidden="true"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "loginID" href="#">Login <i class="fa fa-user" aria-hidden="true"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron">
+		<div class ="jumbo-content">
+			<h1 class="display-3">Recipes</h1>
+			<p class="lead">
+				Find and share everyday cooking inspiration on More-Recipes. Discover recipes, cooks, videos, and how-tos based on the food you love and the friends you follow.
+			</p>
+		</div>
+	</div>
+	<ul class="nav nav-tabs" id="myTab" role="tablist">
+		<li class="nav-item">
+			<a class="nav-link active" id="all-recipes-tab" data-toggle="tab" href="#all-recipes" role="tab" aria-controls="all-recipes" aria-expanded="true">All</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="popular-tab" data-toggle="tab" href="#popular" role="tab" aria-controls="popular">Popular</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="search-tab" data-toggle="tab" href="#search" role="tab" aria-controls="search">Search</a>
+		</li>
+	</ul>
+	<div class="tab-content" id="myTabContent">
+		<div class="tab-pane fade show active" id="all-recipes" role="tabpanel" aria-labelledby="all-recipes-tab">
+			<div class= "container">
+				<div class="row">
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/akara.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Akara</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>								
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/banga-soup.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Banga Soup</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>							
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/burger.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Beef Burger</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>								
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/coconut-rice.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Coconut Rice</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>							
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/edikang-ikong-soup.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Edikang Ikong Soup</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star-half" aria-hidden="true"></i>								
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/eforiro-soup.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Efo Riro Soup</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star-half" aria-hidden="true"></i>								
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/egusi-soup.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Egusi Soup</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star-half" aria-hidden="true"></i>								
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/jellof-rice.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Jollof Rice</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>								
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/kuli-kuli.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Kuli Kuli</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>								
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/meat-pie.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Meat Pie</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>								
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/puff-puff.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Puff Puff</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star-half" aria-hidden="true"></i>								
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/spicy-chicken.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Spicy Chicken</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star-half" aria-hidden="true"></i>								
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/thai-noodle-salad.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Thai Noodle Salad</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>								
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/vegetable-fried-rice.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Vegetable Fried Rice</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>								
+								</p>
+								<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tab-pane fade" id="popular" role="tabpanel" aria-labelledby="popular-tab">
+			<div class= "container">
+				<div class= "container">
+					<div class="row">
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/akara.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Akara</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>								
+									</p>	
+									<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/banga-soup.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Banga Soup</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>								
+									</p>
+									<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/coconut-rice.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Coconut Rice</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>								
+									</p>
+									<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/edikang-ikong-soup.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Edikang Ikong Soup</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-half" aria-hidden="true"></i>								
+									</p>
+									<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/egusi-soup.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Egusi Soup</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>								
+									</p>
+									<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/jellof-rice.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Jollof Rice</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>								
+									</p>
+									<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/meat-pie.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Meat Pie</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>							
+									</p>
+									<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/puff-puff.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Puff Puff</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-half" aria-hidden="true"></i>								
+									</p>
+									<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/thai-noodle-salad.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Thai Noodle Salad</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>								
+									</p>
+									<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/vegetable-fried-rice.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Vegetable Fried Rice</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>								
+									</p>
+									<a href="samplerecipe.html" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tab-pane fade" id="search" role="tabpanel" aria-labelledby="search-tab">
+
+		</div>
+	</div>
+	<div id="loginModal" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content form">
+				<div class="modal-header">
+					<h4 class="modal-title">Login</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<form action="profile.html"> 
+									<div class="form-group">
+										<label for="inputEmail">Email address</label>
+										<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+									</div>
+									<div class="form-group">
+										<label for="inputPassword">Password</label>
+										<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+									</div>
+									<div class="form-check">
+										<label class="form-check-label">
+											<input type="checkbox" class="form-check-input">
+											Remember Me
+										</label>
+									</div>
+									<button type="submit" class="btn btn-primary">Submit</button>
+								</form>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="signupModal" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content form">
+				<div class="modal-header">
+					<h4 class="modal-title">Sign Up!</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<form action="profile.html">
+									<div class="form-group">
+										<label for="inputEmail">Email address</label>
+										<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+										<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+									</div>
+									<div class="form-group">
+										<label class="form-control-label" for="inputUsername">Username</label>
+										<input type="text" class="form-control" id="inputUsername" placeholder="Username">
+									</div>
+									<div class="form-group">
+										<label for="inputPassword1">Password</label>
+										<input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+									</div>
+									<div class="form-group">
+										<label for="inputPassword2">Repeat Password</label>
+										<input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+									</div>
+									<div class="form-check">
+										<label class="form-check-label">
+											<input type="checkbox" class="form-check-input">
+											I have read the terms and conditions.
+										</label>
+									</div>
+									<button type="submit" class="btn btn-primary">Submit</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src ="js/script.js"></script>
+</body>
+</html>

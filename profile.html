@@ -1,0 +1,252 @@
+<html>
+<head>
+	<title>Your Account</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/profile.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class ="container">
+			<a class="navbar-brand" href="index.html"><i class="fa fa-cutlery" aria-hidden="true"></i> More Recipes</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="catalogue.html">Catalogue</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="nav-item">
+						<form class="form-inline my-2 my-lg-0">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						</form>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Your Account
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="profile.html">Profile Page</a>
+							<a class="dropdown-item" href="index.html">Sign Out</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="jumbotron">
+		<h1 class="display-6">Hi username!</h1>
+	</div>
+	<ul class="nav nav-tabs" id="myTab" role="tablist">
+		<li class="nav-item">
+			<a class="nav-link active" id="personal-recipes-tab" data-toggle="tab" href="#personal-recipes" role="tab" aria-controls="personal-recipes">Personal Recipes</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="favourites-tab" data-toggle="tab" href="#favourites" role="tab" aria-controls="favourites">My Favourites</a>
+		</li>	
+	</ul>
+	<div class="tab-content" id="myTabContent">
+		<div class="tab-pane fade show active" id="personal-recipes" role="tabpanel" aria-labelledby="personal-recipes-tab">
+			<div id="add-recipe">
+				<h6>Share your own culinary creations! Add a <a href="submit.html">new recipe.</a></h6>
+				<hr>
+			</div>
+			<div class= "container">		
+				<div class="row">
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/burger.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Beef Burger</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>								
+								</p>
+								<a href="#" class="btn btn-primary">Modify</a>
+								<a href="#" class="btn btn-primary btn-danger">Delete</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/coconut-rice.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Coconut Rice</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>							
+								</p>
+								<a href="#" class="btn btn-primary">Modify</a>
+								<a href="#" class="btn btn-primary btn-danger">Delete</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/egusi-soup.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Egusi Soup</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star-half" aria-hidden="true"></i>								
+								</p>
+								<a href="#" class="btn btn-primary">Modify</a>
+								<a href="#" class="btn btn-primary btn-danger">Delete</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="card">
+							<img class="card-img-top" src="img/jellof-rice.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h4 class="card-title">Jollof Rice</h4>
+								<p class="card-text">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>								
+								</p>
+								<a href="#" class="btn btn-primary">Modify</a>
+								<a href="#" class="btn btn-primary btn-danger">Delete</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tab-pane fade" id="favourites" role="tabpanel" aria-labelledby="favourites-tab">
+			<div class= "container">
+				<div class= "container">
+					<div class="row">
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/banga-soup.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Banga Soup</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>								
+									</p>
+									<a href="#" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/coconut-rice.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Coconut Rice</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>								
+									</p>
+									<a href="#" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/eforiro-soup.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Efo Riro Soup</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>	
+										<i class="fa fa-star-half" aria-hidden="true"></i>						
+									</p>
+									<a href="#" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/jellof-rice.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Jollof Rice</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>								
+									</p>
+									<a href="#" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/meat-pie.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Meat Pie</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>							
+									</p>
+									<a href="#" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/puff-puff.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Puff Puff</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-half" aria-hidden="true"></i>							
+									</p>
+									<a href="#" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="card">
+								<img class="card-img-top" src="img/thai-noodle-salad.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">Thai Noodle Salad</h4>
+									<p class="card-text">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>								
+									</p>
+									<a href="#" class="btn btn-primary">Check it out!</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src ="js/script.js"></script>
+</body>
+</html>
